@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'eventmachine', '~> 1.0', '>= 1.0.9.1'
   spec.add_runtime_dependency 'faraday-detailed_logger'
   spec.add_runtime_dependency 'faye-websocket', '~> 0.10.3'
-  spec.add_runtime_dependency 'json', '~> 1.8.5','>= 1.8.5'
+  spec.add_runtime_dependency 'json'
   spec.add_runtime_dependency 'faraday_middleware'
 end
